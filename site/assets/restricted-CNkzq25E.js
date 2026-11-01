@@ -1,0 +1,1 @@
+var e=[{id:`ice`,label:`ICE BofA`,pattern:/^US_(HIGH_YIELD|CORPORATE_IG)_OAS$/},{id:`tiingo`,label:`Tiingo`,pattern:/^ETF_[A-Z]+_ADJ_(CLOSE|VOLUME)$/},{id:`moodys`,label:`Moody's`,pattern:/^US_BAA10Y$/},{id:`twse`,label:`TWSE`,pattern:/^TWSE_FOREIGN_(BUY|SELL|NET)$/}],t=`DEMO_LICENSE_RESTRICTED`;function n(t){return t?e.find(e=>e.pattern.test(t))??null:null}export{n,t};
