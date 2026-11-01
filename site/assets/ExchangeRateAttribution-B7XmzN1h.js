@@ -1,0 +1,1 @@
+import{t as e}from"./react-CJnRskoE.js";var t=e();function n(e){return e.startsWith(`FX_USD_`)}function r(){return(0,t.jsx)(`p`,{className:`exchange-rate-attribution`,children:(0,t.jsx)(`a`,{href:`https://www.exchangerate-api.com`,target:`_blank`,rel:`noreferrer`,children:`Rates By Exchange Rate API`})})}export{n,r as t};
