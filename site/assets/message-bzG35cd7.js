@@ -1,0 +1,1 @@
+import{u as e}from"./http-BTmLvJe4.js";function t(t,n=``){if(!t?.code)return n;if(!e.exists(t.code))return t.defaultText||n;let r={...t.parameters??{}};if(typeof r.directionCode==`string`){let t=`analytics.direction.${r.directionCode}`;e.exists(t)&&(r.direction=e.t(t))}return e.t(t.code,r)}function n(e,n=[]){return e?.length?e.map((e,r)=>t(e,n[r]??``)):n}export{n,t};

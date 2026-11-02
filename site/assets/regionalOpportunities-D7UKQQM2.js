@@ -1,0 +1,1 @@
+import{n as e}from"./http-BTmLvJe4.js";function t(t){let n=t?`?asOf=${encodeURIComponent(t)}`:``;return e(`regional-opportunities${n}`)}function n(t,n=120){return e(`regional-opportunities/history?region=${encodeURIComponent(t)}&limit=${Math.min(Math.max(Math.trunc(n),2),365)}`)}export{n,t};
